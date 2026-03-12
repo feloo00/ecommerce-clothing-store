@@ -59,22 +59,22 @@ A web-based e-commerce application for a clothing store that allows users to bro
 ![Admin](screenshots/AdminDashboard.png)
 
 ### About
-![Admin](screenshots/AdminDashboard.png)
+![About](screenshots/About.png)
 
 ### Favourite
-![Admin](screenshots/AdminDashboard.png)
+![Favourite](screenshots/Favourite.png)
 
 ### Login
-![Admin](screenshots/AdminDashboard.png)
+![Login](screenshots/Login.png)
 
 ### My Orders
-![Admin](screenshots/AdminDashboard.png)
+![MyOrders](screenshots/Myorders.png)
 
 ### Orders
-![Admin](screenshots/AdminDashboard.png)
+![Orders](screenshots/Orders.png)
 
 ### Show Item
-![Admin](screenshots/AdminDashboard.png)
+![ShowItem](screenshots/Showitem.png)
 
 
 ## 👨‍💻 Author
