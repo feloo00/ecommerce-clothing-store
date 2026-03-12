@@ -82,6 +82,3 @@ A web-based e-commerce application for a clothing store that allows users to bro
 Felopater Adel  
 Computer Science Student  
 Backend Developer (.NET)
-
-1. Clone the repository
-
