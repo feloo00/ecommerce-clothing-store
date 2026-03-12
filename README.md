@@ -46,10 +46,36 @@ A web-based e-commerce application for a clothing store that allows users to bro
 
 (Add screenshots of the website UI here)
 
-- Home Page
-- Products Page
-- Cart
-- Admin Dashboard
+### Home Page
+![Home](screenshots/Home.png)
+
+### Cart
+![Cart](screenshots/Cart.png)
+
+### Products Page
+![Products](screenshots/products.png)
+
+### Admin Dashboard
+![Admin](screenshots/AdminDashboard.png)
+
+### About
+![Admin](screenshots/AdminDashboard.png)
+
+### Favourite
+![Admin](screenshots/AdminDashboard.png)
+
+### Login
+![Admin](screenshots/AdminDashboard.png)
+
+### My Orders
+![Admin](screenshots/AdminDashboard.png)
+
+### Orders
+![Admin](screenshots/AdminDashboard.png)
+
+### Show Item
+![Admin](screenshots/AdminDashboard.png)
+
 
 ## 👨‍💻 Author
 
