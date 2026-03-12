@@ -1,0 +1,39 @@
+﻿@model Brand_Clothes_Store.Models.ProductVariant
+
+@{
+    ViewData["Title"] = "Variant Details";
+}
+
+<h2 class="text-center mb-4">Variant Details</h2>
+
+<div class="card p-4 shadow-sm">
+    <dl class="row">
+        <dt class="col-sm-3">Product</dt>
+        <dd class="col-sm-9">@Model.Product?.Name</dd>
+
+        <dt class="col-sm-3">Color</dt>
+        <dd class="col-sm-9">@Model.Color</dd>
+
+        <dt class="col-sm-3">Size</dt>
+        <dd class="col-sm-9">@Model.Size</dd>
+
+        <dt class="col-sm-3">Price</dt>
+        <dd class="col-sm-9">@Model.Price</dd>
+
+        <dt class="col-sm-3">Stock</dt>
+        <dd class="col-sm-9">@Model.Stock</dd>
+
+        <dt class="col-sm-3">Image</dt>
+        <dd class="col-sm-9">
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <img src="@Model.ImageUrl" width="120" height="120" style="object-fit:cover" />
+            }
+        </dd>
+    </dl>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</div>

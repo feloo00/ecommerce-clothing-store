@@ -1,0 +1,186 @@
+﻿
+@{
+    ViewBag.Title = "About Us";
+}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+<div class="container py-5 about-page">
+
+    <div class="row">
+
+        <!-- LEFT CONTENT -->
+        <div class="col-lg-8 mb-4 fade-in">
+
+            <h1 class="fw-bold mb-3 display-4 brand-title">
+                <i class="fa-solid fa-shirt"></i> @Model.BrandName
+            </h1>
+
+            <p class="lead text-muted fs-5">@Model.ShortDescription</p>
+
+            <section class="mb-5">
+                <h3 class="section-title"><i class="fa-solid fa-circle-info"></i> About Us</h3>
+                <p class="text-body">@Model.LongDescription</p>
+            </section>
+
+            <section class="mb-5">
+                <h3 class="section-title"><i class="fa-solid fa-bullseye"></i> Our Vision</h3>
+                <p>@Model.Vision</p>
+            </section>
+
+            <section class="mb-5">
+                <h3 class="section-title"><i class="fa-solid fa-star"></i> Why Choose Us?</h3>
+                <ul class="list-group beautiful-list">
+                    @foreach (var item in Model.WhyChooseUs)
+                    {
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-check text-success"></i> @item
+                        </li>
+                    }
+                </ul>
+            </section>
+
+        </div>
+
+        <!-- RIGHT CARDS -->
+        <div class="col-lg-4">
+
+            <!-- YEARS ACTIVE CARD -->
+            <div class="card custom-card shadow-lg mb-4 zoom-in">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">
+                        <i class="fa-solid fa-calendar"></i> We have been active for
+                    </h5>
+                    <p class="card-text fs-2 fw-bold style=" color: #B51A2B">@Model.YearsActive years</p>
+                    <p class="card-text">
+                        <i class="fa-solid fa-cotton-bureau text-success"></i>
+                        All garments are made using <strong>100% Egyptian Cotton</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- BRANCHES CARD -->
+            <div class="card custom-card shadow-lg zoom-in">
+                <div class="card-body">
+                    <h5 class="card  fw-bold">
+                        <i class="fa-solid  fa-location-dot"></i> Our Branches
+                    </h5>
+                    <ul class="list-group">
+                        @foreach (var branch in Model.Branches)
+                        {
+                            <li class="list-group-item branch-item">
+                                <a href="@branch.Split('|')[1]"
+                                   target="_blank"
+                                   class="branch-link">
+                                    <i class="fa-solid fa-map-pin"></i>
+                                    @branch.Split('|')[0]
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- CUSTOM STYLE -->
+<style>
+    .about-page {
+        animation: fadeInPage 0.8s ease-in-out;
+    }
+
+    @@keyframes fadeInPage {
+        from
+
+    {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    }
+
+    .fade-in {
+        animation: fadeInLeft 0.9s ease;
+    }
+    @@keyframes fadeInLeft {
+        from
+
+    {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    }
+
+    .zoom-in {
+        animation: zoomIn 0.9s ease;
+    }
+    @@keyframes zoomIn {
+        from
+
+    {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    }
+
+    .custom-card {
+        border-radius: 16px;
+        transition: transform .3s ease, box-shadow .3s ease;
+    }
+
+        .custom-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+    .brand-title {
+        color: #242F49;
+    }
+
+    .section-title {
+        font-weight: 600;
+        margin-bottom: 10px;
+         color: #384358; 
+    }
+
+    .beautiful-list .list-group-item {
+        border: none;
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+    .branch-item {
+        transition: background 0.3s;
+    }
+
+    .branch-link {
+        text-decoration: none;
+        font-weight: 500;
+        color: #541A2E;
+        transition: 0.3s;
+    }
+
+        .branch-link:hover {
+            color: #B51A2B;
+            padding-left: 6px;
+        }
+</style>

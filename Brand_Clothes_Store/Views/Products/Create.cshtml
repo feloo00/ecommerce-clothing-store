@@ -1,0 +1,91 @@
+﻿@model Brand_Clothes_Store.Models.Product
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-success text-white">
+            <h3 class="mb-0">Add New Product</h3>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Create" method="post">
+                @Html.AntiForgeryToken() <!-- مهم جدًا -->
+
+                <input type="hidden" asp-for="Id" />
+
+                <!-- Validation Summary -->
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <!-- Name -->
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label fw-bold"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- Description -->
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label fw-bold"></label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <!-- BasePrice -->
+                <div class="mb-3">
+                    <label asp-for="BasePrice" class="form-label fw-bold"></label>
+                    <input asp-for="BasePrice" class="form-control" />
+                    <span asp-validation-for="BasePrice" class="text-danger"></span>
+                </div>
+
+                <!-- ImageUrl -->
+                <div class="mb-3">
+                    <label asp-for="ImageUrl" class="form-label fw-bold"></label>
+                    <input asp-for="ImageUrl" class="form-control" />
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                </div>
+
+                <!-- Category -->
+                <div class="mb-3">
+                    <label asp-for="CategoryId" class="form-label fw-bold">Category</label>
+                    <select asp-for="CategoryId"
+                            class="form-select"
+                            asp-items="@(new SelectList(ViewData["Categories"] as List<Brand_Clothes_Store.Models.Category>, "Id", "Name"))">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+                <!-- Status -->
+                <div class="mb-3">
+                    <label asp-for="Status" class="form-label fw-bold">Status</label>
+                    <select asp-for="Status" class="form-select"
+                            asp-items="Html.GetEnumSelectList<Brand_Clothes_Store.Models.Enums.ProductStatus>()">
+                    </select>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" class="btn btn-success rounded-pill">
+                    <i class="bi bi-check-circle"></i> Save
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        // Print all validation errors in browser console for debugging
+        window.addEventListener('DOMContentLoaded', () => {
+            const errorSpans = document.querySelectorAll(".text-danger span");
+            errorSpans.forEach(e => {
+                if (e.textContent) {
+                    console.log("Validation Error:", e.textContent);
+                }
+            });
+        });
+    </script>
+}

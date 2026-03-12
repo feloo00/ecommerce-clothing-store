@@ -1,0 +1,139 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    var stats = ViewBag.Dashboard;
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-5 fw-bold text-primary">Brand Clothes Store Dashboard 👕</h1>
+
+    <!-- 🔹 Dashboard Statistics -->
+    <div class="row text-center mb-5 g-4">
+        <div class="col-md-2 col-sm-4">
+            <div class="card stat-card bg-primary text-white shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-tags-fill fs-2 mb-2"></i>
+                    <h6>Categories</h6>
+                    <h3>@stats.Categories</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4">
+            <div class="card stat-card bg-success text-white shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-bag-fill fs-2 mb-2"></i>
+                    <h6>Products</h6>
+                    <h3>@stats.Products</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4">
+            <div class="card stat-card bg-warning text-dark shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-palette-fill fs-2 mb-2"></i>
+                    <h6>Variants</h6>
+                    <h3>@stats.Variants</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4">
+            <div class="card stat-card bg-danger text-white shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-box-seam fs-2 mb-2"></i>
+                    <h6>Orders</h6>
+                    <h3>@stats.Orders</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4">
+            <div class="card stat-card bg-info text-white shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-people-fill fs-2 mb-2"></i>
+                    <h6>Customers</h6>
+                    <h3>@stats.Customers</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4">
+            <div class="card stat-card bg-dark text-white shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-cash-stack fs-2 mb-2"></i>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🔸 Quick Navigation Cards -->
+    <div class="row text-center g-4">
+        <div class="col-md-3">
+            <a asp-controller="Category" asp-action="Index" class="text-decoration-none">
+                <div class="card nav-card border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-tags fs-1 text-primary"></i>
+                        <h5 class="mt-2 text-dark">Manage Categories</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-controller="Products" asp-action="Index" class="text-decoration-none">
+                <div class="card nav-card border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-bag fs-1 text-success"></i>
+                        <h5 class="mt-2 text-dark">Manage Products</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-controller="Order" asp-action="Index" class="text-decoration-none">
+                <div class="card nav-card border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-box fs-1 text-danger"></i>
+                        <h5 class="mt-2 text-dark">Manage Orders</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-controller="Customers" asp-action="Index" class="text-decoration-none">
+                <div class="card nav-card border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-people fs-1 text-info"></i>
+                        <h5 class="mt-2 text-dark">Manage Customers</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .stat-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 15px;
+    }
+
+        .stat-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+    .nav-card {
+        border-radius: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .nav-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+</style>

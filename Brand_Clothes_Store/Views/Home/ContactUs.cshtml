@@ -1,0 +1,201 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<style>
+    /* ===== Section Background & Text ===== */
+    .contact-section {
+        padding: 4rem 0;
+        color: #FBE4D8; /* Main text default */
+    }
+
+    /* ===== Contact Card ===== */
+    .card-contact {
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        transform: translateY(30px);
+        opacity: 0;
+        overflow: hidden;
+        transition: transform 0.6s ease, opacity 0.6s ease, background 0.3s ease, color 0.3s ease;
+        background: #161e2f; /* Card background */
+        color: #FBE4D8; /* Text color inside card */
+    }
+
+        .card-contact.revealed {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+    /* ===== Icon Circle ===== */
+    .icon-circle {
+        width: 64px;
+        height: 64px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #FFA58633, #B51A2B22);
+        font-size: 22px;
+        margin-right: 1rem;
+        color: #FBE4D8;
+        transition: transform 0.25s ease, background 0.3s ease;
+    }
+
+    .contact-item:hover .icon-circle {
+        transform: translateY(-6px);
+        background: linear-gradient(135deg, #FFA58666, #B51A2B44);
+    }
+
+    /* ===== Contact Links ===== */
+    .contact-links a {
+        display: flex;
+        align-items: center;
+        gap: .75rem;
+        padding: .6rem .8rem;
+        border-radius: .6rem;
+        transition: background 0.18s ease, transform 0.12s ease;
+        text-decoration: none;
+        color: #FBE4D8; /* Change text color to #FBE4D8 */
+    }
+
+        .contact-links a .fw-bold {
+            color: #FBE4D8; /* Bold titles */
+        }
+
+        .contact-links a small {
+            color: #FBE4D8; /* Small text */
+        }
+
+        .contact-links a:hover {
+            background: #541A2E88;
+            transform: translateX(6px);
+        }
+
+    /* ===== WhatsApp Button ===== */
+    .whatsapp-btn {
+        background: #25D366;
+        color: white;
+        border-radius: .6rem;
+        padding: .5rem .9rem;
+        display: inline-flex;
+        gap: .6rem;
+        align-items: center;
+        box-shadow: 0 6px 18px rgba(37,211,102,0.3);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+        .whatsapp-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(37,211,102,0.35);
+        }
+
+    /* ===== Email Button ===== */
+    .btn-outline-secondary {
+        border-color: #FBE4D8;
+        color: #FBE4D8;
+        transition: all 0.2s ease;
+    }
+
+        .btn-outline-secondary:hover {
+            background: #FBE4D8;
+            color: #161e2f; /* Card background color */
+        }
+
+    /* Paragraph inside card */
+    .card-contact p {
+        color: #FBE4D8;
+    }
+</style>
+
+<section class="contact-section container">
+    <div class="row g-4 align-items-center">
+
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="card card-contact p-4">
+                <h3 class="mb-3">Contact Us</h3>
+                <p>Feel free to contact us through phone, WhatsApp, email, or any of our social media platforms.</p>
+
+                <div class="mt-4 contact-links">
+
+                    <a href="tel:@Model.PhonePrimary" class="contact-item mb-2">
+                        <span class="icon-circle"><i class="fa-solid fa-phone"></i></span>
+                        <div>
+                            <div class="fw-bold">Primary Phone</div>
+                            <small>@Model.PhonePrimary</small>
+                        </div>
+                    </a>
+
+                    <a href="tel:@Model.PhoneSecondary" class="contact-item mb-2">
+                        <span class="icon-circle"><i class="fa-solid fa-phone-volume"></i></span>
+                        <div>
+                            <div class="fw-bold">Secondary Phone</div>
+                            <small>@Model.PhoneSecondary</small>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/@Model.WhatsAppNumber" target="_blank" class="contact-item mb-2">
+                        <span class="icon-circle"><i class="fa-brands fa-whatsapp"></i></span>
+                        <div>
+                            <div class="fw-bold">WhatsApp</div>
+                            <small>Click to chat on WhatsApp</small>
+                        </div>
+                    </a>
+
+                    <a href="mailto:@Model.Email" class="contact-item mb-2">
+                        <span class="icon-circle"><i class="fa-solid fa-envelope"></i></span>
+                        <div>
+                            <div class="fw-bold">Email</div>
+                            <small>@Model.Email</small>
+                        </div>
+                    </a>
+
+                    <a href="@Model.FacebookUrl" target="_blank" class="contact-item mb-2">
+                        <span class="icon-circle"><i class="fa-brands fa-facebook-f"></i></span>
+                        <div>
+                            <div class="fw-bold">Facebook</div>
+                            <small>@Model.FacebookUrl</small>
+                        </div>
+                    </a>
+
+                    <a href="@Model.InstagramUrl" target="_blank" class="contact-item">
+                        <span class="icon-circle"><i class="fa-brands fa-instagram"></i></span>
+                        <div>
+                            <div class="fw-bold">Instagram</div>
+                            <small>@Model.InstagramUrl</small>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="mt-4">
+                    <a href="https://wa.me/@Model.WhatsAppNumber" target="_blank" class="whatsapp-btn">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                    <a href="mailto:@Model.Email" class="btn btn-outline-secondary ms-2">Send Email</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    // Reveal animation for card on scroll
+    document.addEventListener('DOMContentLoaded', function () {
+        const items = document.querySelectorAll('.card-contact');
+        const obs = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    obs.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+
+        items.forEach(i => obs.observe(i));
+    });
+</script>

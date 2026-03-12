@@ -1,0 +1,57 @@
+﻿@model Brand_Clothes_Store.ViewModels.LoginViewModel
+
+<div class="container mt-4 col-6">
+
+    <h2 class="mb-4 text-center">Login</h2>
+
+    <form asp-action="Login" method="post">
+
+        <!-- Email -->
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger small"></span>
+        </div>
+
+        <!-- Password -->
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Password</label>
+            <input asp-for="Password" type="password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger small"></span>
+        </div>
+
+        <!-- Login Button -->
+        <button type="submit" class="btn btn-primary w-100 py-2 mb-3">
+            Login
+        </button>
+
+        <!-- Sign up -->
+        <div class="text-center mb-3">
+            <p class="text-muted m-0">
+                Don’t have an account?
+                <a asp-controller="Account" asp-action="Register" class="fw-bold text-primary text-decoration-none">
+                    Sign up
+                </a>
+            </p>
+        </div>
+
+        <!-- Divider -->
+        <div class="d-flex align-items-center mb-3">
+            <hr class="flex-grow-1">
+            <span class="mx-2 text-muted">OR</span>
+            <hr class="flex-grow-1">
+        </div>
+
+        <!-- Google Login Button -->
+        <a asp-controller="Account"
+           asp-action="ExternalLogin"
+           asp-route-provider="Google"
+           class="btn btn-light border w-100 py-2 rounded-3 fw-semibold d-flex align-items-center justify-content-center"
+           style="gap: 8px;">
+            <img src="https://www.svgrepo.com/show/475656/google-color.svg" width="22" />
+            Continue with Google
+        </a>
+
+    </form>
+
+</div>

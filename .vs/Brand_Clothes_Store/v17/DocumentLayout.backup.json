@@ -1,0 +1,1340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\productvariantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\productvariantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\shop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\shop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\shop\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\shop\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\enums\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\enums\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\shop\\myfavourite.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\shop\\myfavourite.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\shop\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\shop\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\enums\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\enums\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\payment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\payment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\payment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\payment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\migrations\\20251106223049_removepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\migrations\\20251106223049_removepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\payment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\payment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\payment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\payment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\order\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\order\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\shop\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\shop\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\carditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\carditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251103122811_AddIdentityTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Brand_Clothes_Store\\Migrations\\20251103122811_AddIdentityTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\orderitems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\orderitems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\productvariants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\productvariants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\productvariants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\productvariants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\productvariants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\productvariants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\productvariants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\productvariants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\productvariants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\productvariants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\orderitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\orderitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\orderitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\orderitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\orderitems\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\orderitems\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\orderitems\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\orderitems\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251031021239_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Brand_Clothes_Store\\Migrations\\20251031021239_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251031020810_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Brand_Clothes_Store\\Migrations\\20251031020810_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\models\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\models\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\migrations\\20251103130333_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\migrations\\20251103130333_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\migrations\\20251103124850_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\migrations\\20251103124850_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|c:\\users\\feloa\\source\\repos\\brand_clothes_store\\brand_clothes_store\\migrations\\20251124114152_addmorefieldstouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B3B089-3823-49B5-B370-E64891020E72}|Brand_Clothes_Store\\Brand_Clothes_Store.csproj|solutionrelative:brand_clothes_store\\migrations\\20251124114152_addmorefieldstouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T12:43:42.426Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Shop\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\Cart.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Shop\\Cart.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T03:56:08.578Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T20:27:11.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Program.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Program.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Program.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T02:05:30.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T01:49:18.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:43:42.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductVariantsController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\ProductVariantsController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\ProductVariantsController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\ProductVariantsController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\ProductVariantsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:54:36.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwCcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T18:48:20.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductStatus.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Enums\\ProductStatus.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\Enums\\ProductStatus.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Enums\\ProductStatus.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\Enums\\ProductStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T00:19:04.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Browse.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\Browse.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Shop\\Browse.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\Browse.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Shop\\Browse.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAADgvxwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T02:43:14.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Product.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\Product.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T00:09:04.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T18:56:35.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAADwv2kAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T18:28:39.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Shop\\Details.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Shop\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T03:14:42.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T20:26:11.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:21:19.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAIBJwAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T13:47:44.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:00:14.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:46:29.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MyFavourite.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\MyFavourite.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Shop\\MyFavourite.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\MyFavourite.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Shop\\MyFavourite.cshtml",
+              "ViewState": "AgIAALsAAAAAAAAAAIBJwMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T17:26:19.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Favourite.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Favourite.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\Favourite.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Favourite.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\Favourite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:50:43.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T21:44:42.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Myorders.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\Myorders.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Shop\\Myorders.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\Myorders.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Shop\\Myorders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T13:44:58.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Order.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\Order.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T00:10:40.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AboutUS.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Home\\AboutUS.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Home\\AboutUS.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Home\\AboutUS.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Home\\AboutUS.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T03:49:06.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAIBJwGEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T16:47:24.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:00:05.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T17:25:19.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\DashBoardController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\DashBoardController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:55:32.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PaymentMethod.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Enums\\PaymentMethod.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\Enums\\PaymentMethod.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Enums\\PaymentMethod.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\Enums\\PaymentMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T00:22:27.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T20:13:07.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:00:57.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T11:03:12.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T22:01:18.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T22:00:38.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20251124114152_AddMoreFieldsToUser.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251124114152_AddMoreFieldsToUser.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Migrations\\20251124114152_AddMoreFieldsToUser.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251124114152_AddMoreFieldsToUser.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Migrations\\20251124114152_AddMoreFieldsToUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:41:52.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T11:00:33.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T10:44:11.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:18:01.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\OrderItemsController.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Controllers\\OrderItemsController.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Controllers\\OrderItemsController.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Controllers\\OrderItemsController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwDkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T20:41:30.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Order\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Edit.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Order\\Edit.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAIBJwF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T04:01:24.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAIBJwAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T04:02:49.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:33:28.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AddAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Account\\AddAdmin.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Account\\AddAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T14:20:53.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:03:11.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T01:29:48.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwBcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T18:59:17.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Index.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Payment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Index.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Payment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T02:54:25.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Payment\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Edit.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Payment\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:01:10.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Details.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Payment\\Details.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Details.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Payment\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:02:57.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20251106223049_removepayment.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251106223049_removepayment.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Migrations\\20251106223049_removepayment.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251106223049_removepayment.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Migrations\\20251106223049_removepayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T22:30:49.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Payment\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Delete.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Payment\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:04:13.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Payment.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T00:11:53.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Create.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Payment\\Create.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Payment\\Create.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Payment\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T02:57:48.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Show.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Order\\Show.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Show.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Order\\Show.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBZwBQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:28:27.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Shop\\OrderConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Shop\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Shop\\OrderConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T22:12:40.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T00:11:16.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CardItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\CardItemDto.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\CardItemDto.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\CardItemDto.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\CardItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:22:38.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ProductVariant.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\ProductVariant.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\ProductVariant.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\ProductVariant.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\ProductVariant.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T00:09:53.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20251103130333_AddIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251103130333_AddIdentity.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Migrations\\20251103130333_AddIdentity.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251103130333_AddIdentity.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Migrations\\20251103130333_AddIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T13:03:33.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20251103124850_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251103124850_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Migrations\\20251103124850_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251103124850_InitialCreate.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Migrations\\20251103124850_InitialCreate.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:48:50.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20251103122811_AddIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251103122811_AddIdentityTables.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Migrations\\20251103122811_AddIdentityTables.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251103122811_AddIdentityTables.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Migrations\\20251103122811_AddIdentityTables.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:28:12.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Order\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Order\\Delete.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Order\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T04:00:36.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Create.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\OrderItems\\Create.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Create.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\OrderItems\\Create.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:48:07.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Create.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\ProductVariants\\Create.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Create.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\ProductVariants\\Create.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T19:57:29.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\ProductVariants\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Delete.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\ProductVariants\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T19:59:11.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Details.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\ProductVariants\\Details.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Details.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\ProductVariants\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T19:58:35.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\ProductVariants\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Edit.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\ProductVariants\\Edit.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T19:58:08.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Index.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\ProductVariants\\Index.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\ProductVariants\\Index.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\ProductVariants\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T19:56:17.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T19:00:02.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\OrderItems\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Edit.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\OrderItems\\Edit.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAQwFIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T15:54:07.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Details.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\OrderItems\\Details.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Details.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\OrderItems\\Details.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T15:58:42.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\OrderItems\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Delete.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\OrderItems\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAACBjwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T18:20:01.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Index.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\OrderItems\\Index.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\OrderItems\\Index.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\OrderItems\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAACBjwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T15:50:15.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T14:20:59.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Category\\Details.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T14:18:41.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T14:17:40.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T14:16:31.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Brand_Clothes_Store\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T14:15:36.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "20251031021239_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251031021239_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Migrations\\20251031021239_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251031021239_InitialCreate.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Migrations\\20251031021239_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T02:12:39.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "20251031020810_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251031020810_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Migrations\\20251031020810_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Migrations\\20251031020810_InitialCreate.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Migrations\\20251031020810_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T02:08:10.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Enums\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "Brand_Clothes_Store\\Models\\Enums\\PaymentStatus.cs",
+              "ToolTip": "C:\\Users\\feloa\\source\\repos\\Brand_Clothes_Store\\Brand_Clothes_Store\\Models\\Enums\\PaymentStatus.cs",
+              "RelativeToolTip": "Brand_Clothes_Store\\Models\\Enums\\PaymentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T01:02:24.179Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

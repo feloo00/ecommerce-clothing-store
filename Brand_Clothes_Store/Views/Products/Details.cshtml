@@ -1,0 +1,48 @@
+﻿@model Brand_Clothes_Store.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">@Model.Name</h3>
+            <span class="badge bg-@(Model.Status == Brand_Clothes_Store.Models.Enums.ProductStatus.Active ? "success" : "secondary")">
+                @Model.Status
+            </span>
+        </div>
+
+        <div class="card-body p-4">
+            <div class="row align-items-center">
+                <div class="col-md-5 text-center">
+                    <img src="@Model.ImageUrl" alt="Product Image" class="img-fluid rounded-4 shadow-sm" />
+                </div>
+                <div class="col-md-7">
+                    <dl class="row">
+                        <dt class="col-sm-4 fw-bold">Category</dt>
+                        <dd class="col-sm-8">@Model.Category?.Name </dd>
+
+                        <dt class="col-sm-4 fw-bold">Base Price</dt>
+                        <dd class="col-sm-8 text-success fw-bold">@Model.BasePrice.ToString("C2")</dd>
+
+                        <dt class="col-sm-4 fw-bold">Description</dt>
+                        <dd class="col-sm-8">@Model.Description</dd>
+
+                        <dt class="col-sm-4 fw-bold">Created At</dt>
+                        <dd class="col-sm-8">@Model.CreatedAt.ToString("dd MMM yyyy, hh:mm tt")</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer bg-light d-flex justify-content-between">
+            <a asp-action="Index" class="btn btn-secondary rounded-pill">
+                <i class="bi bi-arrow-left-circle"></i> Back
+            </a>
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning rounded-pill text-white">
+                <i class="bi bi-pencil-square"></i> Edit
+            </a>
+        </div>
+    </div>
+</div>

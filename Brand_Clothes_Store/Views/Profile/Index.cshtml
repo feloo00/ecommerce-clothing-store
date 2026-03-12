@@ -1,0 +1,18 @@
+﻿@model Brand_Clothes_Store.Models.ApplicationUser
+
+<div class="container mt-5">
+    <h2 class="mb-4">User Profile</h2>
+
+    <div class="card p-4 shadow">
+        <h4 class="text-primary">@Model.UserName</h4>
+
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Phone Number:</strong> @Model.PhoneNumber</p>
+
+        <p><strong>Full Name:</strong> @Model.FullName</p>
+        <p><strong>Address:</strong> @Model.Address</p>
+        @* <p><strong>Date of Birth:</strong> @Model.DateOfBirth</p> *@
+
+        <p><strong>Joined On:</strong> @Model.CreatedAt</p>
+    </div>
+</div>

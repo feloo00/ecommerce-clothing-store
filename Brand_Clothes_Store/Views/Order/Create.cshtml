@@ -1,0 +1,136 @@
+﻿@model Brand_Clothes_Store.Models.Order
+
+@{
+    ViewData["Title"] = "Create Order";
+}
+
+<h2 class="mb-3">Create New Order</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group mb-3">
+        <label asp-for="UserId" class="form-label">Customer</label>
+        <select asp-for="UserId" class="form-select" asp-items="ViewBag.CustomerId">
+            <option value="">-- Select Customer --</option>
+        </select>
+    </div>
+
+    <hr />
+
+    <h4>Order Items</h4>
+
+    <table class="table table-bordered" id="orderItemsTable">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Variant</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <button type="button" class="btn btn-primary mb-3" id="addItemBtn">Add Product</button>
+
+    <div class="mb-3">
+        <label>Total Order Price:</label>
+        <input type="text" id="totalOrderPrice" name="TotalPrice" readonly class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Create Order</button>
+</form>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            let itemIndex = 0;
+
+            const products = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(
+                                            ViewBag.Products ?? new List<object>()
+                            ));
+
+        // لما يضغط على Add Product
+        $("#addItemBtn").on("click", function () {
+            let row = `
+                <tr>
+                    <td>
+                        <select class="form-select product" name="orderItems[${itemIndex}].ProductId">
+                            <option value="">-- Select Product --</option>
+                            ${products.map(p => `<option value="${p.id}">${p.name}</option>`).join('')}
+                        </select>
+                    </td>
+                    <td>
+                        <select class="form-select variant" name="orderItems[${itemIndex}].VariantId">
+                            <option value="">-- Select Variant --</option>
+                        </select>
+                    </td>
+                    <td><input name="orderItems[${itemIndex}].UnitPrice" type="number" class="form-control price" readonly /></td>
+                    <td><input name="orderItems[${itemIndex}].Quantity" type="number" class="form-control qty" value="1" min="1" /></td>
+                    <td><input name="orderItems[${itemIndex}].TotalPrice" class="form-control total" readonly /></td>
+                    <td><button type="button" class="btn btn-danger btn-sm remove">X</button></td>
+                </tr>`;
+            $("#orderItemsTable tbody").append(row);
+            itemIndex++;
+        });
+
+            // لما يختار Product
+            $(document).on("change", ".product", function () {
+                let productId = $(this).val();
+                let variantDropdown = $(this).closest("tr").find(".variant");
+
+                if (productId) {
+                    $.getJSON(`/Order/GetVariantsByProduct?productId=${productId}`, function (data) {
+                        variantDropdown.empty().append('<option value="">-- Select Variant --</option>');
+                        $.each(data, function (i, v) {
+                            variantDropdown.append(`<option value="${v.id}" data-price="${v.price}">
+                                ${v.color || ''} ${v.size || ''}
+                            </option>`);
+                        });
+                    });
+                } else {
+                    variantDropdown.empty().append('<option value="">-- Select Variant --</option>');
+                }
+            });
+
+            // لما يختار Variant
+            $(document).on("change", ".variant", function () {
+                let selected = $(this).find(":selected");
+                let price = parseFloat(selected.data("price")) || 0;
+                let row = $(this).closest("tr");
+                row.find(".price").val(price.toFixed(2));
+                updateRowTotal(row);
+            });
+
+            // حساب الإجمالي عند تغيير الكمية
+            $(document).on("input", ".qty", function () {
+                let row = $(this).closest("tr");
+                updateRowTotal(row);
+            });
+
+            // حذف صف
+            $(document).on("click", ".remove", function () {
+                $(this).closest("tr").remove();
+                calcTotalOrder();
+            });
+
+            function updateRowTotal(row) {
+                let price = parseFloat(row.find(".price").val()) || 0;
+                let qty = parseInt(row.find(".qty").val()) || 0;
+                let total = price * qty;
+                row.find(".total").val(total.toFixed(2));
+                calcTotalOrder();
+            }
+
+            function calcTotalOrder() {
+                let total = 0;
+                $(".total").each(function () {
+                    total += parseFloat($(this).val()) || 0;
+                });
+                $("#totalOrderPrice").val(total.toFixed(2));
+            }
+        });
+    </script>
+}
+

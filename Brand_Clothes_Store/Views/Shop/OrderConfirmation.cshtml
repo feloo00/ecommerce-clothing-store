@@ -1,0 +1,17 @@
+﻿@model Brand_Clothes_Store.Models.Order
+
+<div class="container text-center py-5">
+    <h2 class="text-success fw-bold">🎉 Order Confirmed!</h2>
+    <p class="fs-5">Thank you for your order.</p>
+
+    <div class="card shadow-sm mx-auto mt-4" style="max-width: 500px;">
+        <div class="card-body">
+            <h5 class="card-title">Order ID: <strong>#@Model.Id</strong></h5>
+            <p><strong>Date:</strong> @Model.CreatedAt.ToString("dd/MM/yyyy")</p>
+            <p><strong>Payment:</strong> @Model.Payment</p>
+            <p><strong>Total:</strong> @Model.TotalPrice.ToString("0.00") EGP</p>
+        </div>
+    </div>
+
+    <a asp-action="Browse" asp-controller="Shop" class="btn btn-primary mt-4">Continue Shopping</a>
+</div>

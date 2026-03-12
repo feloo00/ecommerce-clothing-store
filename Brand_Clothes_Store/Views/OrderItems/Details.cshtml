@@ -1,0 +1,104 @@
+﻿@model Brand_Clothes_Store.Models.OrderItem
+@using Brand_Clothes_Store.Models.Enums
+
+@{
+    ViewData["Title"] = "Order Item Details";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">Order Item Details</h3>
+            <span class="badge bg-@(
+                  Model.Order.orderStatus == OrderStatus.New ? "info" :
+                  Model.Order.orderStatus == OrderStatus.Processing ? "warning" :
+                  Model.Order.orderStatus == OrderStatus.Shipped ? "primary" :
+                  Model.Order.orderStatus == OrderStatus.Delivered ? "success" : "danger"
+                        ) fs - 6">
+                @Model.Order.orderStatus
+            </span>
+        </div>
+
+        <div class="card-body p-4">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="@Model.Variant.ImageUrl" class="img-fluid rounded-4 shadow-sm" alt="Product Image" />
+                </div>
+
+                <div class="col-md-8">
+                    <dl class="row mb-0">
+                        <dt class="col-sm-4 fw-bold text-secondary">Order</dt>
+                        <dd class="col-sm-8">
+                            <a asp-controller="Orders" asp-action="Details" asp-route-id="@Model.OrderId"
+                               class="text-decoration-none fw-bold link-primary">
+                                #@Model.OrderId
+                            </a>
+                        </dd>
+
+                        <dt class="col-sm-4 fw-bold text-secondary">Product</dt>
+                        <dd class="col-sm-8">
+                            <a asp-controller="Products" asp-action="Details" asp-route-id="@Model.Variant.Product.Id"
+                               class="text-decoration-none fw-bold link-dark">
+                                @Model.Variant.Product.Name
+                            </a>
+                        </dd>
+
+                        <dt class="col-sm-4 fw-bold text-secondary">Variant</dt>
+                        <dd class="col-sm-8">@Model.Variant.Color - @Model.Variant.Size</dd>
+
+                        <dt class="col-sm-4 fw-bold text-secondary">Quantity</dt>
+                        <dd class="col-sm-8">@Model.Quantity</dd>
+
+                        <dt class="col-sm-4 fw-bold text-secondary">Unit Price</dt>
+                        <dd class="col-sm-8 text-success fw-bold">@Model.UnitPrice.ToString("C2")</dd>
+
+                        <dt class="col-sm-4 fw-bold text-secondary">Total Price</dt>
+                        <dd class="col-sm-8 text-danger fw-bold">@Model.TotalPrice.ToString("C2")</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer bg-light d-flex justify-content-between align-items-center">
+            <div>
+                <a asp-action="Index" class="btn btn-secondary rounded-pill">
+                    <i class="bi bi-arrow-left-circle"></i> Back to List
+                </a>
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning rounded-pill text-white ms-2">
+                    <i class="bi bi-pencil-square"></i> Edit
+                </a>
+            </div>
+
+            <a asp-controller="Orders" asp-action="Details" asp-route-id="@Model.OrderId"
+               class="btn btn-info rounded-pill text-white">
+                <i class="bi bi-card-list"></i> View Full Order Details
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: all 0.3s ease-in-out;
+    }
+
+        .card:hover {
+            transform: scale(1.01);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+    img {
+        max-height: 250px;
+        object-fit: cover;
+        transition: 0.3s ease;
+    }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+    a.link-primary:hover,
+    a.link-dark:hover {
+        text-decoration: underline;
+    }
+</style>

@@ -1,0 +1,96 @@
+﻿@model Brand_Clothes_Store.Models.Order
+@{
+    ViewData["Title"] = "Edit Order";
+}
+
+<!-- Success Alert -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+        <i class="bi bi-check-circle-fill"></i> @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<!-- Error Alert -->
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+        <i class="bi bi-exclamation-octagon-fill"></i> @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header bg-primary text-white text-center rounded-top-4">
+                    <h4 class="mb-0">Edit Order</h4>
+                </div>
+
+                <div class="card-body bg-light p-4">
+                    <form asp-action="Edit" method="post">
+
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="UserId" />
+
+                        <!-- Created At -->
+                        <div class="mb-3">
+                            <label asp-for="CreatedAt" class="form-label fw-bold">Created At</label>
+                            <input asp-for="CreatedAt" class="form-control" type="datetime-local" />
+                            <span asp-validation-for="CreatedAt" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Total Price -->
+                        <div class="mb-3">
+                            <label asp-for="TotalPrice" class="form-label fw-bold">Total Price</label>
+                            <input asp-for="TotalPrice" class="form-control" type="number" step="0.01" min="0" />
+                            <span asp-validation-for="TotalPrice" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Order Status -->
+                        <div class="mb-3">
+                            <label asp-for="orderStatus" class="form-label fw-bold">Order Status</label>
+                            <select asp-for="orderStatus" class="form-select" asp-items="ViewBag.OrderStatusList">
+                                <option disabled>-- Select Status --</option>
+                            </select>
+                            <span asp-validation-for="orderStatus" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-action="Index" class="btn btn-outline-secondary rounded-pill px-4">
+                                <i class="bi bi-arrow-left-circle"></i> Back
+                            </a>
+
+                            <button type="submit" class="btn btn-primary rounded-pill px-4">
+                                <i class="bi bi-save2"></i> Save Changes
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        // Hide alerts automatically after 2 seconds
+        setTimeout(() => {
+            let alerts = document.querySelectorAll('.alert');
+            alerts.forEach(alert => {
+                // Add fade-out animation
+                alert.classList.remove("show");
+                alert.classList.add("fade");
+                
+                // Remove from DOM after fade animation
+                setTimeout(() => alert.remove(), 500);
+            });
+        }, 2000); // 2000 ms = 2 seconds
+    </script>
+}

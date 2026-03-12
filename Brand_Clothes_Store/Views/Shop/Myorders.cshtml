@@ -1,0 +1,123 @@
+﻿@model List<Brand_Clothes_Store.Models.Order>
+
+<!-- My Orders Page -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<style>
+    body {
+        background-color: #161E2F;
+        color: #FBE4D8;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .orders-container {
+        padding: 40px 0;
+    }
+
+    .order-card {
+        background-color: #242F49;
+        border-radius: 15px;
+        padding: 25px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        transition: 0.3s;
+    }
+
+        .order-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+        }
+
+    .order-header {
+        border-bottom: 1px solid #384358;
+        padding-bottom: 12px;
+        margin-bottom: 15px;
+    }
+
+    .order-status {
+        background-color: #B51A2B;
+        color: white;
+        padding: 5px 12px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+    }
+
+    .item-box {
+        background-color: #384358;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 12px;
+    }
+
+    .product-img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .btn-details {
+        background-color: #541A2E;
+        color: #FBE4D8;
+        border-radius: 8px;
+        padding: 8px 15px;
+        transition: 0.3s;
+    }
+
+        .btn-details:hover {
+            background-color: #B51A2B;
+            color: white;
+        }
+</style>
+
+<div class="container orders-container">
+    <h2 class="text-center mb-5 fw-bold" style="color:#FBE4D8;">My Orders</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert text-center" style="background-color:#384358; color:#FBE4D8; border:none;">
+            <h4>No orders found yet.</h4>
+            <a asp-controller="Shop" asp-action="Browse" class="btn btn-details mt-3">Start Shopping</a>
+        </div>
+    }
+    else
+    {
+        foreach (var order in Model)
+        {
+            <div class="order-card">
+                <div class="order-header d-flex justify-content-between align-items-center">
+                    <h5 class="fw-bold">Order #@order.Id</h5>
+                    <span class="order-status">@order.orderStatus</span>
+                </div>
+
+                <p><strong>Date:</strong> @order.CreatedAt.ToString("dd MMM yyyy - hh:mm tt")</p>
+                <p><strong>Total Price:</strong> @order.TotalPrice EGP</p>
+                <p><strong>Payment:</strong> @order.Payment</p>
+
+                <h6 class="mt-3 mb-2 fw-bold">Items:</h6>
+
+                @foreach (var item in order.OrderItems)
+                {
+                    <div class="item-box d-flex align-items-center gap-3">
+                        <img src="@item.Variant.ImageUrl" class="product-img" />
+
+                        <div>
+                            <h6 class="fw-bold m-0">@item.Variant.Product.Name</h6>
+                            <small>Size: @item.Variant.Size</small><br />
+                            <small>Qty: @item.Quantity</small>
+                        </div>
+
+                        <div class="ms-auto text-end">
+                            <p class="m-0 fw-bold">@item.TotalPrice EGP</p>
+                            <small class="text-light">(@item.UnitPrice EGP each)</small>
+                        </div>
+                    </div>
+                }
+
+                <div class="text-end mt-3">
+                    <a asp-action="OrderConfirmation" asp-route-orderId="@order.Id" class="btn btn-details">View Details</a>
+                </div>
+            </div>
+        }
+    }
+</div>

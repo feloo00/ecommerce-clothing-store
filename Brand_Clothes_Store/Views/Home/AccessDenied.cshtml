@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="text-danger fw-bold display-3">Access Denied</h1>
+    <p class="lead fs-4 mt-3">You are not authorized to view this page.</p>
+
+    <a href="/" class="btn btn-primary rounded-pill px-4 mt-4 shadow-sm">
+        Go Home
+    </a>
+</div>
+
+<style>
+    body {
+        background: #f8f9fa;
+    }
+
+    .btn-primary {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+</style>

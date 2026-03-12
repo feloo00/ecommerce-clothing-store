@@ -1,0 +1,33 @@
+﻿@model Brand_Clothes_Store.Models.ApplicationUser
+
+<div class="container mt-5">
+    <h2>User Details</h2>
+
+    <div class="card p-4 shadow">
+
+        <h4 class="text-primary">@Model.UserName</h4>
+
+        <p><strong>ID:</strong> @Model.Id</p>
+        <p><strong>Full Name:</strong> @Model.FullName</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Phone:</strong> @Model.PhoneNumber</p>
+        <p><strong>Address:</strong> @Model.Address</p>
+        
+        <p><strong>Created At:</strong> @Model.CreatedAt</p>
+        <p><strong>Orders:</strong> @Model.Orders</p>
+
+        <hr />
+
+        @* بيانات Google لو موجودة *@
+        @if (ViewBag.GoogleName != null)
+        {
+            <p><strong>Google Name:</strong> @ViewBag.GoogleName</p>
+        }
+
+        @if (ViewBag.GooglePicture != null)
+        {
+            <img src="@ViewBag.GooglePicture" width="120" style="border-radius:50%" />
+        }
+
+    </div>
+</div>
